@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+
+# AI coding workspace
+.workbuddy/
+AGENTS.md
+TECHNICAL_workbuddy.md
+
+# Local reference code
+reference/*
+!reference/README.md
+
+# Internal documents and screenshots
+docs/assets/
+docs/PROMPT-P0.md
+
+# Local environment and dependencies
+.env
+.env.*
+!.env.example
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+
+# Temporary files and logs
+*.log
+*.tmp

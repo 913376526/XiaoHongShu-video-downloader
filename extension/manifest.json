@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "RED 视频下载助手",
+  "version": "0.1.0",
+  "description": "在小红书视频作品页一键保存当前视频（P1 最小验证版，非官方产品）",
+  "permissions": ["activeTab", "scripting", "downloads", "storage"],
+  "host_permissions": ["https://www.xiaohongshu.com/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "RED 视频下载助手"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
